@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин товаров</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/images/logo.png" alt="Логотип" class="logo">
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="products.html">Каталог</a>
+                <a href="cart.html">Корзина</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Добро пожаловать в наш магазин!</h1>
+            <p>Лучшие товары по выгодным ценам. Быстрая доставка по всей России.</p>
+        </section>
+
+        <section class="featured-products">
+            <h2>Популярные товары</h2>
+            <div class="product-grid">
+                <!-- Карточка товара -->
+                <div class="product-card">
+                    <img src="assets/images/product1.jpg" alt="Товар 1">
+                    <h3>Товар 1</h3>
+                    <p>1 990 ₽</p>
+                    <a href="product-detail.html?id=1" class="btn">Подробнее</a>
+                </div>
+                <!-- Повторить для других товаров -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Магазин товаров. Все права защищены.</p>
+    </footer>
+</body>
+</html>
